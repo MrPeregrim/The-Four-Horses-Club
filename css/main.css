@@ -1,0 +1,534 @@
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 26px 0;
+    z-index: 10;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 6.35px;
+}
+
+.logo span {
+    color: #595653;
+    
+    font-family: "Golos Text";
+    font-size: 16.651px;
+    font-weight: 700;
+    line-height: 108%;
+    text-transform: uppercase;
+}
+
+.main {
+    position: relative;
+    background: #E9DED4 url(/The-Four-Horses-Club/images/main.png) center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.main-wrapper {
+    position: relative;
+    padding: 124px 0 130px;
+    z-index: 1;
+}
+
+.main-title {
+    margin-bottom: 24px;
+    
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.main-title-bottom {
+    text-align: right !important;
+}
+
+.main-title span {
+    text-align: center;
+    display: block;
+}
+
+.main-subtitle {
+    margin-bottom: 40px;
+    color: #313131;
+    text-align: center;
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+}
+
+.main-content {
+    max-width: 542px;
+}
+
+.main-btns {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 14px;
+}
+
+.main-btns a {
+    width: 100%;
+    max-width: calc(50% - 8px);
+    padding: 13px;
+    border-radius: 66px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    border: 2px solid #1F1F1F;
+    transition: all .3s;
+}
+
+.main-btns a:nth-child(1) {
+    color: #fff;
+    background: #1F1F1F;
+}
+
+.main-btns a:nth-child(1):hover {
+    color: #1F1F1F;
+    background: #FBCE51;
+    border: 2px solid #FBCE51;
+}
+
+.main-btns a:nth-child(2) {
+    color: #1F1F1F;
+}
+
+.main-btns a:nth-child(2):hover {
+    color: #fff;
+    background: #1F1F1F;
+}
+
+.sm-marquee-wrapper {
+    max-width: min-content;
+}
+
+.sm-marquee-wrapper span {
+    position: relative;
+    color: #FFF;
+    
+    font-family: Merriweather;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 110%;
+    text-transform: uppercase;
+    margin: 0 12px;
+}
+
+.sm-marquee-wrapper span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    right: -18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.sm-marquee-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding: 18px;
+    background: #F54932;
+    min-width: 100%;
+}
+
+.sm-marquee-item {
+    padding: 0;
+    margin-right: 10px;
+    min-width: fit-content;
+    display: inline-block;
+}
+
+.present {
+    padding: 79px 0 63px;
+    background: #fff;
+}
+
+.section-title {
+    position: relative;
+    top: -9px;
+    color: #313131;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 135%; /* 48.6px */
+    text-transform: uppercase;
+}
+
+.present-span-red {
+    color: #F54932;
+}
+
+.present-top__img {
+    margin-bottom: 17px;
+    flex-basis: 1;
+}
+
+.present-top {
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+    row-gap: 24px;
+    margin-bottom: 64px;
+    flex-wrap: wrap;
+}
+
+.present-top .section-title {
+    flex-basis: 2;
+    max-width: 760px;
+}
+
+.present-bottom {
+    display: flex;
+    align-items: top;
+    flex-wrap: wrap;
+    column-gap: 17px;
+    row-gap: 19px;
+}
+
+.present-bottom .section-title {
+    margin-bottom: 40px;
+}
+
+
+
+.present-bottom__left {
+    position: relative;
+    top: -49px;
+    margin-left: -30px;
+}
+
+.present-bottom__right {
+    max-width: calc(100% - 518px);
+}
+
+.present-bottom__right a {
+    color: #3057A2;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.present-table {
+    display: grid;
+    grid-template-columns: 0.78fr 1fr;
+    margin-bottom: 48px;
+}
+
+.present-table__item {
+    color: #313131;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.present-table__item {
+    border-bottom: 2px solid #D0D0D0;
+}
+
+.present-table__item:nth-of-type(-n+3) {
+    padding-top: 0;
+}
+
+.present-table__item:nth-child(odd) {
+    padding: 16px 16px 16px 0;
+    border-right: 2px solid #D0D0D0;
+}
+
+.present-table__item:first-child {
+    padding: 0 16px 16px 0;
+}
+
+.present-table__item-first {
+    padding: 0 0 16px 16px !important;
+}
+
+.present-table__item:nth-child(even) {
+    padding: 16px 0 16px 16px;
+}
+
+.present-table__item:nth-last-of-type(-n+2) {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.sm-marquee-line {
+    display: flex;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.sm-marquee-desc {
+    display: flex;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.steps {
+    padding: 0 0 100px;
+}
+
+.steps .section-title {
+    max-width: 806px;
+    display: inline-block;
+    font-size: 54px;
+    line-height: 120%;
+    margin-bottom: 43px;
+}
+
+.section-title a {
+    display: inline-block;
+    color: #3057A2;
+    max-width: 280px;
+    text-transform: math-auto;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Golos Text";
+    line-height: 120%;
+}
+
+.present-section-title {
+    position: relative;
+    top: -20px;
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 25px;
+}
+
+.steps-grid__item {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 14px;
+    padding: 20px;
+    background: url(/The-Four-Horses-Club/images/steps.jpg), lightgray center / cover no-repeat;
+}
+
+.steps-grid__item:nth-child(3) {
+    grid-row: 1 / 3;
+    grid-column: 3 / 3;
+}
+
+.steps-grid__item:nth-child(7) {
+    position: relative;
+    grid-row: 3 / 3;
+    grid-column: 2 / 4;
+}
+
+.steps-grid__item:nth-child(7) .grid-item__text {
+    max-width: 446px;
+}
+
+.steps-grid__item:nth-child(7)::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 376px;
+    right: -8%;
+    top: -125%;
+    background: url(/The-Four-Horses-Club/images/airplains.png) right / contain no-repeat;
+}
+
+.grid-item__text {
+    color: #313131;
+    font-family: "Golos Text";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: calc(100% - 50px);
+}
+
+.grid-item__num  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    color: #313131;
+    background: #fff;
+}
+
+.participants {
+    padding: 100px 0 125px;
+    background: #fff;
+}
+
+.section-title-partic {
+    color: rgb(49, 49, 49);
+    font-family: Merriweather;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.participants-slider {
+    overflow: hidden;
+}
+
+.participants-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.participants-arrows {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 14px;
+}
+
+.pagination {
+    color: #313131;
+    text-edge: cap;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    max-width: calc(100% - 116px);
+    text-align: center;
+}
+
+.partic-img {
+    width: 81%;
+}
+
+.arrow-slider {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #313131;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.arrow-slider:first-child {
+    transform: rotate(-180deg);
+}
+
+.participants-item__name {
+    margin-bottom: 6px;
+    color: #151515;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+}
+
+.participants-item__img {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.participants-item__titul {
+    margin-bottom: 20px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+}
+
+.participants-item__link a {
+    margin: auto;
+    max-width: max-content;
+    margin-bottom: 12px;
+    color: #3057A2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 12px;
+    border-radius: 62px;
+    border: 1px solid #3057A2;
+    transition: all .3s;
+}
+
+.participants-item__btn {
+    width: 113px;
+    height: 35px;
+    left: 141px;
+    top: 427px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    
+}
+
+.swiper-button-disabled {
+    background: #D6D6D6;
+}
+
+.arrow-slider:hover {
+    background: #FBCE51;
+}
+
+.swiper-button-disabled:hover {
+    background: #D6D6D6;
+}
+
+.swiper-pagination-total {
+    opacity: 0.6;
+}
+
+.participants-item__link a:hover {
+    border: 1px solid #3057A2;
+    color: #fff;
+    background: #3057A2;
+}
+
+.footer {
+    background: #E9DED4;
+}
+
+.copyright {
+    padding: 40px 0 72px;
+    color: #313131;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    opacity: 0.6;
+}
+
+.steps-slider, .steps-pagin {
+    display: none;
+}
